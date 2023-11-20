@@ -1,10 +1,10 @@
 package cards;
 
-public class BoostAttackCard implements Card{
+public class BoostAttackCard implements Card {
     private int number;
-    private static  int boost = 3;
+    private static int boost = 3;
 
-    public BoostAttackCard(){
+    public BoostAttackCard() {
         this.number = 2;
     }
 
@@ -13,8 +13,8 @@ public class BoostAttackCard implements Card{
         return number;
     }
 
-    public int getBoost(){
-        return number;
+    public int getBoost() {
+        return boost;
     }
 
     @Override
@@ -23,7 +23,7 @@ public class BoostAttackCard implements Card{
     }
 
     @Override
-    public String description(){
+    public String description() {
         return "Boost card";
     }
 }

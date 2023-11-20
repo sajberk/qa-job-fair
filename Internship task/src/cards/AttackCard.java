@@ -18,7 +18,7 @@ public class AttackCard implements Card {
     }
 
     @Override
-    public String description(){
+    public String description() {
         return "Attack card";
     }
 }

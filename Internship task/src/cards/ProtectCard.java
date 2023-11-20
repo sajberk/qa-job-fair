@@ -4,13 +4,13 @@ public class ProtectCard implements Card {
 
     private int number;
 
-    public ProtectCard(){
+    public ProtectCard() {
         this.number = 1;
     }
 
     @Override
     public int getNumber() {
-      return number;
+        return number;
     }
 
     @Override
@@ -19,8 +19,8 @@ public class ProtectCard implements Card {
     }
 
     @Override
-    public String description(){
+    public String description() {
         return "Protect card";
     }
-    
+
 }
